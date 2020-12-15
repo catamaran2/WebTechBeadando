@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<script type="text/javascript" src="js/carForm.js"></script>
+<form method="post" onsubmit="myFunctionCar()">
+    <table>
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" name="carName" required="required" autofocus id="carNameId"/></td>
+        </tr>
+        <tr>
+            <td>Consumption:</td>
+            <td><input type="text" name="consumption" required="required" id="consumptionId"/></td>
+        </tr>
+        <tr>
+            <td>Color:</td>
+            <td><input type="color" name="color" required="required" id="colorId"/></td>
+        </tr>
+        <tr>
+            <td>Manufacturer:</td>
+            <td>
+                <select name="carManufacturer" required="required" id="carManufacturerId">
+
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Avaiable:</td>
+            <td><input type="number" name="avaiable" required="required" id="avaiableId"/></td>
+        </tr>
+        <tr>
+            <td>Year:</td>
+            <td><input type="number" name="year" required="required" id="yearId"/></td>
+        </tr>
+        <tr>
+            <td>Horsepower:</td>
+            <td><input type="number" name="horsepower" required="required" id="horsepowerId"/></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" name="insert" value="Add Car" id="carInsertId"/></td>
+        </tr>
+    </table>
+</form>
+
+</html>

@@ -1,0 +1,96 @@
+body {
+    background-color: lightblue;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: darkblue;
+}
+
+.contentImage {
+    width: 200px;
+}
+
+#banner {
+    height: 100px;
+    background: blue;
+    color: black;
+    font-size: 80px;
+    opacity: 0.9;
+    border-bottom: 10px solid cadetblue;
+}
+
+#menuBar {
+    font-size: 17px;
+    float: right;
+    background: darkblue;
+    margin-top: 20px;
+}
+
+#menuBar .menuButton {
+    width: 150px;
+    background: darkgray;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+#menuBar .menuButton:HOVER {
+    background: black;
+    border: 5px solid gray;
+    color: white;
+}
+
+.innerTable {
+    border: 1px double;
+    width: auto;
+}
+
+
+table {
+    border: 1px solid black;
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-collapse: collapse;
+    background-color: white;
+
+}
+
+
+td, tr, th {
+    border: 1px solid black;
+    height: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+.centeredTd {
+    text-align: center;
+}
+
+#booksTable {
+    width: 100%;
+    margin: auto;
+}
+
+#carImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 50%;
+}
+
+#manufacturerImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
